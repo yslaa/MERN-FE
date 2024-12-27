@@ -1,0 +1,53 @@
+{
+  "name": "react-and-vite-and-million-js",
+  "private": true,
+  "description": "Frontend",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "format": "prettier --write \"src/**/*.{js,jsx,css}\"",
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@gradin/tailwindcss-scrollbar": "^3.0.1",
+    "@reduxjs/toolkit": "^2.5.0",
+    "apexcharts": "^4.3.0",
+    "dotenv": "^16.4.7",
+    "formik": "^2.4.6",
+    "million": "^3.1.11",
+    "react": "^18.3.1",
+    "react-apexcharts": "^1.7.0",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.4.0",
+    "react-redux": "^9.2.0",
+    "react-responsive-carousel": "^3.2.23",
+    "react-router-dom": "^6.26.0",
+    "react-spinners": "^0.15.0",
+    "react-toastify": "^9.1.2",
+    "redux-persist": "^6.0.0",
+    "styled-components": "^6.1.12",
+    "yup": "^1.6.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.8.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react-swc": "^3.5.0",
+    "autoprefixer": "^10.4.20",
+    "daisyui": "^4.12.22",
+    "eslint": "^9.8.0",
+    "eslint-plugin-react": "^7.35.0",
+    "eslint-plugin-react-hooks": "^5.1.0-rc.0",
+    "eslint-plugin-react-refresh": "^0.4.9",
+    "globals": "^15.9.0",
+    "prettier": "^3.3.3",
+    "tailwind-scrollbar-hide": "^1.1.7",
+    "tailwindcss": "^3.4.9",
+    "tailwindcss-animate": "^1.0.7",
+    "tailwindcss-debug-screens": "^2.2.1",
+    "vite": "^5.4.0"
+  }
+}

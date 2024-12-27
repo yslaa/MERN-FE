@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*::before,
+*::after,
+* {
+  @apply box-border p-0 m-0 font-inter;
+}
+
+::selection {
+  @apply bg-secondary-default !important;
+}
+
+html,
+body {
+  @apply min-w-full min-h-full !important;
+}
+
+.loader {
+  @apply grid items-center justify-center w-full min-h-screen !important;
+}
+
+input[type="checkbox"].peer:checked::before {
+  @apply content-["✔"] relative -translate-x-2/4 -translate-y-2/4 left-2/4 top-2/4 block text-center text-light-default !important;
+}
